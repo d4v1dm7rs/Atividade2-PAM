@@ -7,7 +7,7 @@ namespace escola{
         private _cpf: string;
         private _endereco: string;
         private _telefone: string;
-
+        
         get nome(){
             return this._nome;
         }

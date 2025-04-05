@@ -3,32 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aluno</title>
+    <title>Aluno escola</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="col-12">
+
+                <h1>Cadastro de aluno</h1>
+
                 <label for=""> Nome: </label>
-                <input type="text" class="form-control" id="nome">
+                <input type="text" class="form-control" id="Nome">
  
-                <label for=""> Ano de Nascimento: </label>
+                <label for="">Ano de Nascimento: </label>
                 <input type="number" class="form-control" id="anoNasc">
  
                 <label for="">CPF: </label>
-                <input type="number" class="form-control" id="cpf">
+                <input type="number" class="form-control" id="Cpf">
  
                 <label for=""> Endereço: </label>
-                <input type="text" class="form-control" id="endereco">
+                <input type="text" class="form-control" id="Endereco">
  
                 <label for=""> Telefone: </label>
-                <input type="number" class="form-control" id="telefone">
+                <input type="number" class="form-control" id="Telefone">
+
+                <label for=""> Nota 1: </label>
+                <input type="number" class="form-control" id="Nota1">
  
-                <button class="btn btn-primary mt-3" id="cadastroAluno"> salvar </button>
+                <label for=""> Nota 2: </label>
+                <input type="number" class="form-control" id="Nota2">
+
+                <label for=""> Nota 3: </label>
+                <input type="number" class="form-control" id="Nota3">
+
+                <label for=""> Nota 4: </label>
+                <input type="number" class="form-control" id="Nota4">
+                
+                <button class="btn btn-primary mt-3" id="cadastroAluno">Salvar </button>
  
-                <h3> Nome: <span id="nome"> </span></h3>
-                <h3> Ano de Nascimeto: <span id="ano"> </span></h3>
+                <h3> Nome: <span id="nome"></span></h3>
+                <h3> Ano de Nascimeto: <span id="ano"></span></h3>
                 <h3> CPF: <span id="cpf"> </span></h3>
                 <h3> Endereço:<span id="endereco"></span></h3>
                 <h3> Telefone: <span id="telefone"></span></h3>
@@ -40,10 +55,11 @@
             </div>
         </div>
     </div>
-    <script src="./JavaScript/pessoa.js"></script>
-    <script src="./JavaScript/aluno.js"></script>
-    <script src="./JavaScript/main.js"></script>
- 
+
+    <script src="./js/aluno.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/pessoa.js"></script>
+
 </body>
 </html>
  
